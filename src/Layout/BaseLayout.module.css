@@ -1,0 +1,36 @@
+.baselayout {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.baselayout::-webkit-scrollbar {
+  display: none;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  position: relative;
+  z-index: 10;
+  width: 100%;
+  height: 64px;
+  background: #fff !important;
+  box-shadow: 0 2px 8px #f0f1f2;
+}
+.title {
+  line-height: initial;
+  text-align: center;
+}
+.body {
+  height: calc(100% - 64px);
+  padding: 40px 0 0;
+  background: #fff;
+  overflow: hidden;
+}
+.content {
+  padding: 0 170px 32px 64px;
+}
+.page-back {
+  padding-left: 0 !important;
+  padding-top: 0 !important;
+}
